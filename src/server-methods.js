@@ -2,6 +2,7 @@
 
 var AuthenticationRequest = require('./authentication-request');
 var HttpManager = require('./http-manager');
+var Buffer = require('buffer/').Buffer;
 
 module.exports = {
   /**
